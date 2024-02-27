@@ -49,6 +49,20 @@ comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
 
+Have trancparent communication about your ability to attend group meetings (let us know in advance if you can not make it).
+
+Make decisions as a group (majority votes may be used to settle disagrements)
+
+If any group member feels as if the quality of the work being done is not up to standards
+or if they feel like changes need to be made to the way things are bing done, the group needs
+to have a disscussion to reach a verdict.
+
+DON'T HOLD BACK! If you feel like somthing needs to be said, please give feedback
+
+Meet once a week 8pm wednsday, (if anything comes up, changes may be made to the schedual 
+and the amount of meetings a week could change depending on workload)
+
+Only scrum master is allowed to merge to main unless they asign that duty to another member
 ## Scope
 
 This Code of Conduct applies within all community spaces, and also applies when
@@ -131,3 +145,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
