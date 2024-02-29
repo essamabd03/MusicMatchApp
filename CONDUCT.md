@@ -59,12 +59,13 @@ to have a disscussion to reach a verdict.
 
 DON'T HOLD BACK! If you feel like somthing needs to be said, please give feedback
 
-Meet once a week 8pm wednsday, (if anything comes up, changes may be made to the schedual 
-and the amount of meetings a week could change depending on workload)
+Meet once a week at 8pm on Wednesdays, (if anything comes up, changes may be made to the schedule
+and the amount of meetings per week could change depending on workload)
 
-Only scrum master is allowed to merge to main unless they asign that duty to another member
+Only scrum master is allowed to merge to main unless they assign that duty to another member
 
 The personal use of phones during scrum meetings in not allowed
+
 ## Scope
 
 This Code of Conduct applies within all community spaces, and also applies when
