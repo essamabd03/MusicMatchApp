@@ -63,6 +63,8 @@ Meet once a week 8pm wednsday, (if anything comes up, changes may be made to the
 and the amount of meetings a week could change depending on workload)
 
 Only scrum master is allowed to merge to main unless they asign that duty to another member
+
+The personal use of phones during scrum meetings in not allowed
 ## Scope
 
 This Code of Conduct applies within all community spaces, and also applies when
