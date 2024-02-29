@@ -49,7 +49,7 @@ comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
 
-Have trancparent communication about your ability to attend group meetings (let us know in advance if you can not make it).
+Have transparent communication about your ability to attend group meetings (let us know in advance if you can not make it).
 
 Make decisions as a group (majority votes may be used to settle disagrements)
 
