@@ -151,3 +151,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 ![Owen's Signature](https://github.com/essamabd03/MusicMatchApp/blob/main/src/signature.png)
 ![Caleb's Signature](https://github.com/essamabd03/MusicMatchApp/blob/main/src/Caleb_signature.png)
 ![Essam's Signature](https://github.com/essamabd03/MusicMatchApp/blob/main/src/Screen%20Shot%202024-02-27%20at%2010.21.51%20AM.png)
+![Josh's Signature](https://github.com/essamabd03/MusicMatchApp/blob/main/src/joshsignature.png)
