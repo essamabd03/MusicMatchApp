@@ -4,4 +4,4 @@ In our commitment to fostering a lean and agile business strategy, we have adopt
 
 Explore the Lean Canvas approach at [LeanCanvas.com](https://www.leancanvas.com/).
 
-To access our detailed Lean Canvas business plan, please refer to the link [Google Slides](https://docs.google.com/presentation/d/1eeWWr67fjLahT_7fkrChziGbmbBLxCePPveigeXRZqs/edit?usp=sharing)
+To access our detailed Lean Canvas business plan, please refer to [Google Slides](https://docs.google.com/presentation/d/1eeWWr67fjLahT_7fkrChziGbmbBLxCePPveigeXRZqs/edit?usp=sharing)
