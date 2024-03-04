@@ -13,31 +13,31 @@
   - More than 85% utilize a mobile device when they listen to music
   - We could focus more of our development efforts on making the mobile application very user friendly and easy to navigate
  
-**Observation 4**
-**Observation:**
-Users are interested in connecting with others who have similar music tastes.
-**Observation Statement:**
-There is an opportunity for Music Match to foster a community where users can connect based on shared music preferences.
-**Supporting Data:**
-Several responses highlighted interest in connecting with others who listen to the same type of music.
-**Team Action:**
-Consider implementing social features that allow users to connect and share their music preferences within the app.
+- **Observation 4**
+  - **Observation:**
+    - Users are interested in connecting with others who have similar music tastes.
+  - **Observation Statement:**
+    - There is an opportunity for Music Match to foster a community where users can connect based on shared music preferences.
+  - **Supporting Data:**
+    - Several responses highlighted interest in connecting with others who listen to the same type of music.
+  - **Team Action:**
+    - Consider implementing social features that allow users to connect and share their music preferences within the app.
 
-**Observation 5**
-**Observation:**
-Discovery of new music is often through recommendations and curated playlists.
-**Observation Statement:**
-Curated playlists and recommendations from friends or platforms play a major role in music discovery for users.
-**Supporting Data:**
-Responses indicated a reliance on Spotify's discover weekly, YouTube recommendations, and friends' suggestions for finding new music.
-**Team Action:** Integrate robust recommendation algorithms and playlist curation features in the Music Match app to aid in music discovery.
+- **Observation 5**
+  - **Observation:**
+    - Discovery of new music is often through recommendations and curated playlists.
+  - **Observation Statement:**
+    - Curated playlists and recommendations from friends or platforms play a major role in music discovery for users.
+  - **Supporting Data:**
+    - Responses indicated a reliance on Spotify's discover weekly, YouTube recommendations, and friends' suggestions for finding new music.
+    - **Team Action:** Integrate robust recommendation algorithms and playlist curation features in the Music Match app to aid in music discovery.
 
-**Observation 6**
-**Observation:**
-The balance between playlist and album listening is fairly even among users.
-**Observation Statement:**
-Users have varied listening habits, with a significant number appreciating both albums and playlists.
-**Supporting Data:**
-Responses to the preferred form of listening were split between playlists and albums, with neither dominating.
-**Team Action:**
-Develop features that cater to both types of listeners, such as allowing users to rate and discover both full albums and curated playlists.
+  - **Observation 6**
+    - **Observation:**
+      - The balance between playlist and album listening is fairly even among users.
+    - **Observation Statement:**
+      - Users have varied listening habits, with a significant number appreciating both albums and playlists.
+    - **Supporting Data:**
+      - Responses to the preferred form of listening were split between playlists and albums, with neither dominating.
+    - **Team Action:**
+      - Develop features that cater to both types of listeners, such as allowing users to rate and discover both full albums and curated playlists.
