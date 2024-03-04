@@ -8,7 +8,6 @@ Many people listen to music on there phones
 86.8% listen to music with phones
 The app should be designed around mobile being the main platform and integrate mobile features like notifications.
 
-
 Observation 3
 Many of the users utilize mobile devices
 More than 85% utilize a mobile device when they listen to music
