@@ -32,7 +32,7 @@
     - Responses indicated a reliance on Spotify's discover weekly, YouTube recommendations, and friends' suggestions for finding new music.
     - **Team Action:** Integrate robust recommendation algorithms and playlist curation features in the Music Match app to aid in music discovery.
 
-  - **Observation 6**
+- **Observation 6**
     - **Observation:**
       - The balance between playlist and album listening is fairly even among users.
     - **Observation Statement:**
