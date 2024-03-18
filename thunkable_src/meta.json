@@ -7,10 +7,60 @@
                     "children": []
                 }
             },
-            "assets": {},
+            "assets": {
+                "65f8781e4904614c5953f4fc": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f8781e4904614c5953f4fc",
+                    "size": "18698",
+                    "mimetype": "image/webp",
+                    "encoding": "7bit",
+                    "originalname": "musicmatchlogo.webp",
+                    "backendURI": "/project/65f868f595258c5703b78fb4/getasset/65f8781e4904614c5953f4fc",
+                    "name": "musicmatchlogo.webp",
+                    "externalName": "users/65aea2dcbdfbccb613c6c105/projects/65f868f595258c5703b78fb4/assets/65f8781e4904614c5953f4fc",
+                    "createdAt": "2024-03-18T17:21:35.092Z",
+                    "updatedAt": "2024-03-18T17:21:35.092Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2dcbdfbccb613c6c105/projects/65f868f595258c5703b78fb4/assets/65f8781e4904614c5953f4fc?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240318%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240318T172135Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=43bd9f54a5a1854029e6898e2a2067b4b48a9e5c3c1c0d87833025181dd476408772cfbdcb114185e79e4c220912134f7e5266e210f60d4b7e4a935d58bf9ff811f74731a5427875341be4035b764588c7c3876274d15489ca4e5b483a3d26a52795d40fcac9c9ce3cc1e212002dfab3a3812db9a85a9a296fa050f9cb4700d2d776405177249cd962c683ea8c6c18a9fe3ea66769d8262d8a90a09f845c641a2d52b712a6ad88a153b80f9606c9d35211062af410043cf80953b622fff96a05ffe92e3f7c005cc58d98c0b9857435d1a9a43c661b337a10dd21cf8c779ca3a40da0d9d5bc5e2fbe9e3d5078238d06d178c44c7554e72ce33618f02a81a36fc4",
+                    "signedUrlExpirationTime": 1710955295277
+                }
+            },
             "backendUpgradeVersion": 24,
             "blockly": {
                 "df3d34de-dec5-448f-867c-da12c8de1219": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "0b8f744e-34f0-46a0-8cca-fe666c961108": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "239716c1-9fe2-4a38-a76a-c80931bcf465": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "0c9ec426-ce4a-4a44-823b-c40167c5085c": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -63,9 +113,9 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
-                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com",
-                "stripePublishableKeyTest": null,
-                "stripePublishableKeyLive": null,
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -74,12 +124,12 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": null,
-                "imageRecognizerServerURL": null,
-                "imageRecognizerSubscriptionKey": null,
-                "cloudName": null,
-                "cloudinaryAPIKey": null,
-                "cloudinaryAPISecret": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {}
                 },
@@ -107,9 +157,9 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
-                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com",
-                "stripePublishableKeyTest": null,
-                "stripePublishableKeyLive": null,
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -118,12 +168,12 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": null,
-                "imageRecognizerServerURL": null,
-                "imageRecognizerSubscriptionKey": null,
-                "cloudName": null,
-                "cloudinaryAPIKey": null,
-                "cloudinaryAPISecret": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {}
                 },
@@ -151,7 +201,33 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "95c45daa-d522-4cb4-9d1d-0ea6a82b106c": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "ee2bbd45-52e4-41e7-9941-3ac0f1d8d87f": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "5bf59422-3165-4760-9640-8f67b50fd99d": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "22fbd6bf-d78a-4ca7-ab39-9f541dc22074": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "9137d39c-5869-4451-af22-cadb1b4a6147": {
+                    "scope": "APP",
+                    "name": "userID",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
