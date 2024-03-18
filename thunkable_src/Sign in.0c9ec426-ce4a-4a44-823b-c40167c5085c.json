@@ -38,22 +38,79 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "Label",
+                "FontSize": 18,
+                "Font": "",
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 69,
+                "Width": 374,
+                "Visible": true,
+                "X": 0,
+                "Y": 510,
+                "RelativeX": 0,
+                "RelativeY": 510,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "9.466666666666667%",
+                    "top": "76.10194536520802%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "0c9ec426-ce4a-4a44-823b-c40167c5085c",
+                "position": "absolute",
+                "edgeOffsets": 510,
+                "children": "Label"
+            },
+            "children": [],
+            "id": "b330d26b-99aa-4444-9f36-09ff081545ed",
+            "thunkableVersion": 448,
+            "name": "error_label"
+        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -67,10 +124,10 @@
                 "Height": 70,
                 "Width": 77,
                 "Visible": true,
-                "X": 198,
-                "Y": 547,
-                "RelativeX": 198,
-                "RelativeY": 547,
+                "X": 224,
+                "Y": 578,
+                "RelativeX": 224,
+                "RelativeY": 578,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -101,7 +158,7 @@
                 "Disabled": false,
                 "ParentId": "0c9ec426-ce4a-4a44-823b-c40167c5085c",
                 "position": "absolute",
-                "edgeOffsets": 547
+                "edgeOffsets": 578
             },
             "children": [],
             "id": "6d60ad46-5381-42b9-b320-7ec4de132b7b",
@@ -122,10 +179,10 @@
                 "Height": 70,
                 "Width": 77,
                 "Visible": true,
-                "X": 45,
-                "Y": 547,
-                "RelativeX": 45,
-                "RelativeY": 547,
+                "X": 80,
+                "Y": 578,
+                "RelativeX": 80,
+                "RelativeY": 578,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -156,7 +213,7 @@
                 "Disabled": false,
                 "ParentId": "0c9ec426-ce4a-4a44-823b-c40167c5085c",
                 "position": "absolute",
-                "edgeOffsets": 547
+                "edgeOffsets": 578
             },
             "children": [],
             "id": "c635125c-acb2-4dce-b6ff-73c1d15ae35d",
@@ -216,7 +273,7 @@
             "id": "8e386a94-61b6-4114-8814-5ee3e1f6b77a",
             "thunkableVersion": 447,
             "bindings": null,
-            "name": "login_instead1"
+            "name": "SignUp Instead"
         },
         {
             "type": "Button",
@@ -295,7 +352,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -370,20 +426,20 @@
             "children": [],
             "id": "6fded977-56fd-4025-a4d1-d058bcbbe24c",
             "thunkableVersion": 447,
-            "name": "Switch1"
+            "name": "SaveSignIn"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 135,
-                "Width": 189,
+                "Height": 171,
+                "Width": 233,
                 "Visible": true,
-                "X": 93,
-                "Y": 25,
-                "RelativeX": 93,
-                "RelativeY": 25,
+                "X": 73,
+                "Y": 15,
+                "RelativeX": 73,
+                "RelativeY": 15,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -407,10 +463,10 @@
                     "top": "4.497751124437781%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 25
+                "edgeOffsets": 15,
+                "Picture": "music-match-high-resolution-logo_1.png"
             },
             "children": [],
             "id": "405c77d0-6ff4-461c-ae19-cc528f2a31cb",
@@ -436,7 +492,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -488,7 +543,7 @@
             "type": "TextInput",
             "translatedName": "Text Input",
             "properties": {
-                "Hint": "Enter Username",
+                "Hint": "Enter Email",
                 "CustomFont": "",
                 "Height": 37,
                 "Width": 311,
@@ -502,7 +557,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -542,7 +596,7 @@
                 "ParentId": "0c9ec426-ce4a-4a44-823b-c40167c5085c",
                 "position": "absolute",
                 "edgeOffsets": 201,
-                "placeholder": "Enter Username"
+                "placeholder": "Enter Email"
             },
             "children": [],
             "id": "ae86ef51-9700-4f43-b50f-68513f85608f",
