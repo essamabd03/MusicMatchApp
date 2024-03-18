@@ -38,20 +38,11 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
         {
@@ -361,7 +352,6 @@
                     "top": "81.96401982114412%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 568
@@ -407,7 +397,6 @@
                     "top": "81.96401982114412%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 568
@@ -453,7 +442,6 @@
                     "top": "81.96401982114412%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 568
