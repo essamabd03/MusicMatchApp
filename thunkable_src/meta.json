@@ -1,0 +1,238 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "65f87520c56bd2a078824c91": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f87520c56bd2a078824c91",
+                    "size": "39941",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "music-match-high-resolution-logo_1.png",
+                    "backendURI": "/project/65f868c4a1bc6c1ab9a7c4ac/getasset/65f87520c56bd2a078824c91",
+                    "name": "music-match-high-resolution-logo_1.png",
+                    "externalName": "users/65aea265b85de05286c4a65b/projects/65f868c4a1bc6c1ab9a7c4ac/assets/65f87520c56bd2a078824c91",
+                    "createdAt": "2024-03-18T17:08:48.903Z",
+                    "updatedAt": "2024-03-18T17:08:48.903Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea265b85de05286c4a65b/projects/65f868c4a1bc6c1ab9a7c4ac/assets/65f87520c56bd2a078824c91?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240318%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240318T170848Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1dffdce41f0a7ecd4f56625050458a8174f8374e0fac876bb31ba717a9bb9c57d97b929fdda796860123f049984d8fd272e64a819ea8dfe8665b33fe83bf26d078d60ce821f8f59f0bc5bca54218519a829b3189d77ac226a534f5fef67b186d5ebf6aa9bbbb4c50f5f8e9c7ba464bb6fac6d5bd4baed93852fa0a61bd6550c288ddf27d4a2732b671f9a3a5aff479502a3a46ad623d7310b1d9aeb43dca53986f4e3380d1cb3ed52b4c867066808c8b8d3247104e05ac11f6de767b88984c1bf4b90ceb2f26e773c40a96a1f91c939e3f5a7f54f889a28bd7c43d42d7f8f62024e25f1128e1898b1f82bbf6740d6eea0a66f37d750f10ee76bfabc4eb7ebc7f",
+                    "signedUrlExpirationTime": 1710954528946
+                }
+            },
+            "backendUpgradeVersion": 24,
+            "blockly": {
+                "df3d34de-dec5-448f-867c-da12c8de1219": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "0c9ec426-ce4a-4a44-823b-c40167c5085c": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "0b8f744e-34f0-46a0-8cca-fe666c961108": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "239716c1-9fe2-4a38-a76a-c80931bcf465": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [
+                "Business"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "id": "239716c1-9fe2-4a38-a76a-c80931bcf465"
+                    },
+                    {
+                        "id": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                    },
+                    {
+                        "id": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                    },
+                    {
+                        "id": "df3d34de-dec5-448f-867c-da12c8de1219"
+                    },
+                    {
+                        "id": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                    },
+                    {
+                        "id": "141a7214-4934-4989-81c2-6047170c2a9f"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Music Match",
+            "settings": {
+                "teamId": null,
+                "appName": "MusicMatch",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {}
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": "MusicMatch",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {}
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "b48b6a37-da64-48c2-97a0-664c765ac11d": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "be1665a5-b27f-436f-bbfa-15c3c9faa185": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "13464983-2970-4f66-a747-d24d836deaef": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "d95fd03d-310e-48d1-8c29-649f34d9aad8": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "70bdd079-2b63-4385-912c-5130d75d9a69": {
+                    "scope": "APP",
+                    "name": "userID",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}

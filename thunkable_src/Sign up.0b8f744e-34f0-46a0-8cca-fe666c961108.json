@@ -1,4 +1,5 @@
 {
+    "id": "0b8f744e-34f0-46a0-8cca-fe666c961108",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -525,7 +526,6 @@
             "name": "logo1"
         }
     ],
-    "id": "0b8f744e-34f0-46a0-8cca-fe666c961108",
     "thunkableVersion": 447,
     "name": "Sign up"
 }
