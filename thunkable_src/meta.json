@@ -23,6 +23,22 @@
                     "__v": 0,
                     "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea265b85de05286c4a65b/projects/65f868c4a1bc6c1ab9a7c4ac/assets/65f87520c56bd2a078824c91?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240318%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240318T170848Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1dffdce41f0a7ecd4f56625050458a8174f8374e0fac876bb31ba717a9bb9c57d97b929fdda796860123f049984d8fd272e64a819ea8dfe8665b33fe83bf26d078d60ce821f8f59f0bc5bca54218519a829b3189d77ac226a534f5fef67b186d5ebf6aa9bbbb4c50f5f8e9c7ba464bb6fac6d5bd4baed93852fa0a61bd6550c288ddf27d4a2732b671f9a3a5aff479502a3a46ad623d7310b1d9aeb43dca53986f4e3380d1cb3ed52b4c867066808c8b8d3247104e05ac11f6de767b88984c1bf4b90ceb2f26e773c40a96a1f91c939e3f5a7f54f889a28bd7c43d42d7f8f62024e25f1128e1898b1f82bbf6740d6eea0a66f37d750f10ee76bfabc4eb7ebc7f",
                     "signedUrlExpirationTime": 1710954528946
+                },
+                "65f8f8c54904614c599e2c83": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f8f8c54904614c599e2c83",
+                    "size": "187616",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "musicMatchLogo.png",
+                    "backendURI": "/project/65f8d6da4904614c598dff64/getasset/65f8f8c54904614c599e2c83",
+                    "name": "musicMatchLogo.png",
+                    "externalName": "users/65aea263b85de05286c4a62a/projects/65f8d6da4904614c598dff64/assets/65f8f8c54904614c599e2c83",
+                    "createdAt": "2024-03-19T02:30:29.757Z",
+                    "updatedAt": "2024-03-19T02:30:29.757Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea263b85de05286c4a62a/projects/65f8d6da4904614c598dff64/assets/65f8f8c54904614c599e2c83?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240319%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240319T023029Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7fbb4d49719ad2a56aff15a4e04e33a50db438aa516aa13825f159db8909c832d6c479e9db08f1dfc51c2c96e9b70fa57ec5354e992251d981ba92e9bead86be2fc5a6a3d32806cae4fe7295e76330300d70ad182b8dd273a488ccffdea1b86c8c8946ec1bcee20fc020e0b356c97b3aafa4040664cabd872fe638d559c1c102c15c19767851a4279767c470cfb3689377a1d155e3efc08472eb6484b5a093170769ef27d6da733d7a051f396651600e7a64484c77f9ffcdd2663329d7f9affaeb367a7250c55f88455185442bea64656ecdc2f1dd9b7d8a44ba0ab6643373f0bb7e01a625561169874bbfdf30ba3fa45729a2c2f4b97cefb117526208afe974",
+                    "signedUrlExpirationTime": 1710988229802
                 }
             },
             "backendUpgradeVersion": 24,

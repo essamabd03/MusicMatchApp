@@ -433,7 +433,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
+                "resizeMode": "cover",
                 "Height": 171,
                 "Width": 233,
                 "Visible": true,
@@ -467,7 +467,7 @@
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
                 "edgeOffsets": 15,
-                "Picture": "music-match-high-resolution-logo_1.png"
+                "Picture": "musicMatchLogo.png"
             },
             "children": [],
             "id": "405c77d0-6ff4-461c-ae19-cc528f2a31cb",
