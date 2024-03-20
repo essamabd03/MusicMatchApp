@@ -1,5 +1,5 @@
-Adoption: 
-  Download rate: Use Firebase Analytics to monitor the app installation events and count the number of new downloads.
+- Adoption: 
+  - Download rate: Use Firebase Analytics to monitor the app installation events and count the number of new downloads.
   Sign-up conversion rate: Capture the rate at which new downloads lead to new sign-ups by tracking authentication  events with Firebase Authentication.
   Number of users trying the live discovery feature within the first week of app installation: Use a combination of  Firestore to store feature usage flags and Firebase Analytics to track the timeframe of usage post-installation.
 Task Success: 
