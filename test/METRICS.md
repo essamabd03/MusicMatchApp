@@ -12,3 +12,5 @@
   - We record the amount of time a user spends on the application in a session. To get average session length, get total sessions and total amount of time user has spent, then divide time by total sessions
 - Error Rate
   - Take how many times a user presses on a button, and if an error occurs, record that. Take total errors and divide by the number of clicks to calculate the rate at which a user will face an error.
+- NPS
+  - When a user logs into the app, they will be presented with a question rating the app 0 -10 of if they would recommend the app. In the backend, we will use a cloud function to get this data and find out our Net Promoter Score. We will then store the scores in the database and send a message to the user thanking them for rating the application.
