@@ -14,3 +14,7 @@
   - Take how many times a user presses on a button, and if an error occurs, record that. Take total errors and divide by the number of clicks to calculate the rate at which a user will face an error.
 - NPS
   - When a user logs into the app, they will be presented with a question rating the app 0 -10 of if they would recommend the app. In the backend, we will use a cloud function to get this data and find out our Net Promoter Score. We will then store the scores in the database and send a message to the user thanking them for rating the application.
+- User Rating
+  - Metrics of user enjoyability within the usage of the app. User satisfaction surveys prompted randomly to users who have been using the app for at least a week. Measured with a 1-5 stars rating and stored in the backend.
+- DAU
+  - Utilize Google Analytics to measure how many unique users login to the app at least once in a given day. This can be tracked by adding one to a counter for every unique login on a given day and dividing that by the total number of users who have accounts within the app.
