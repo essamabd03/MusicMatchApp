@@ -6,3 +6,9 @@
   - Success rate of album rating task: Track the completion of album rating tasks through Firestore event logging,  identifying successful submissions and failures.
   - Average time to add an album to a playlist: Time-stamp the start and completion of adding an album using Firebase  Analytics, then calculate the average duration.
   - Error rate during task completion: Implement error tracking in the app's code that reports to Firebase Crashlytics, enabling us to monitor and reduce the error rate.
+- Retention Rate
+  - Take analytics of when a user signs up, and their last login, if more than an x amount of days since last login, user was not retained, else, user is retained. Retention rate is calculated by taking retained users divided     by total users within our backend database (Firebase)
+- Session Length
+  - We record the amount of time a user spends on the application in a session. To get average session length, get total sessions and total amount of time user has spent, then divide time by total sessions
+- Error Rate
+  - Take how many times a user presses on a button, and if an error occurs, record that. Take total errors and divide by the number of clicks to calculate the rate at which a user will face an error.
