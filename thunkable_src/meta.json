@@ -118,6 +118,28 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "141a7214-4934-4989-81c2-6047170c2a9f": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "46975f97-82a0-4d86-9ada-4910e3f833cf": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
