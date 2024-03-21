@@ -118,6 +118,28 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "46975f97-82a0-4d86-9ada-4910e3f833cf": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "141a7214-4934-4989-81c2-6047170c2a9f": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -271,6 +293,31 @@
                     "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
                 },
                 "70bdd079-2b63-4385-912c-5130d75d9a69": {
+                    "scope": "APP",
+                    "name": "userID",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "ee2bbd45-52e4-41e7-9941-3ac0f1d8d87f": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "22fbd6bf-d78a-4ca7-ab39-9f541dc22074": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "95c45daa-d522-4cb4-9d1d-0ea6a82b106c": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "5bf59422-3165-4760-9640-8f67b50fd99d": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "9137d39c-5869-4451-af22-cadb1b4a6147": {
                     "scope": "APP",
                     "name": "userID",
                     "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
