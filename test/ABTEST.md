@@ -9,7 +9,6 @@
 - **Impact:** By increasing the rate of user feedback through prompt mechanisms, we can gather more data to improve our recommendation algorithms, enhance user satisfaction, and potentially increase user engagement with the platform.
 - **Experiment:** To test the hypothesis, we will implement a prompt mechanism to encourage users to rate albums or songs after listening. The experiment will be conducted using Firebase capabilities to track user interactions and measure the success metrics accurately.
 - **Variations:** The variation we will test involves displaying a modal prompt at the end of a listening session, asking the user to rate the album or song they just listened to. The prompt will include a star rating system and an optional text input for additional feedback. 
-
 ___
 <!--- replace this text with your user story! (Be sure to delete this comment afterwards!) -->
 ___
