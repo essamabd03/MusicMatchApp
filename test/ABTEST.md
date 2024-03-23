@@ -11,4 +11,8 @@
 - **Variations:** The variation we will test involves displaying a modal prompt at the end of a listening session, asking the user to rate the album or song they just listened to. The prompt will include a star rating system and an optional text input for additional feedback. 
 
 ___
-<!--- line <15> creates a separting line, use it to separate user stories -->
+<!--- replace this text with your user story! (Be sure to delete this comment afterwards!) -->
+___
+<!--- replace this text with your user story! (Be sure to delete this comment afterwards!) -->
+___
+<!--- replace this text with your user story! (Be sure to delete this comment afterwards!) -->
