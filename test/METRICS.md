@@ -18,3 +18,5 @@
   - Metrics of user enjoyability within the usage of the app. User satisfaction surveys prompted randomly to users who have been using the app for at least a week. Measured with a 1-5 stars rating and stored in the backend.
 - DAU
   - Utilize Google Analytics to measure how many unique users login to the app at least once in a given day. This can be tracked by adding one to a counter for every unique login on a given day and dividing that by the total number of users who have accounts within the app.
+- Churn rate
+  - Analyze user login data and subscription status changes stored in Firestore to determine the rate at which users stop using the app.
