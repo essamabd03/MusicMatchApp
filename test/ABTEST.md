@@ -14,7 +14,7 @@ ___
 
 **User Story Number:** US7: Light vs. Dark Mode
 
-**Metric** (from the HEART grid): User Rating
+**Metric** (from the HEART grid): User Engagement & User Retention
 
 **Hypothesis:**
 - Problem: Our app has a high drop off rate during nighttime usage, suggesting potential discomfort or reduced engagement due to the brightness of the interface.
