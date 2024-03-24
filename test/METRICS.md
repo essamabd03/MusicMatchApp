@@ -1,3 +1,5 @@
+[Heart Framework](https://docs.google.com/presentation/d/1R9efhSmiDopaT6U0qaB0p3gNwx7D0KfrmcsDXufpCoQ/edit?usp=sharing)
+
 - Adoption: 
   - Download rate: Use Firebase Analytics to monitor the app installation events and count the number of new downloads.
   - Sign-up conversion rate: Capture the rate at which new downloads lead to new sign-ups by tracking authentication  events with Firebase Authentication.
