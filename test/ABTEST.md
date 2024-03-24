@@ -19,7 +19,7 @@ ___
 **Hypothesis:**
 - Problem: Our app has a high drop off rate during nighttime usage, suggesting potential discomfort or reduced engagement due to the brightness of the interface.
 - Impact: High bounce rates during nighttime usage could lead to decreased user satisfaction and retention, ultimately affecting our app's success and revenue.
-Hypothesis: Offering a dark mode option will reduce user discomfort during nighttime usage, leading to increased engagement and retention.
+- Hypothesis: Offering a dark mode option will reduce user discomfort during nighttime usage, leading to increased engagement and retention.
 
 **Experiment:**
 - Setup: For this A/B test, we will allocate 50% of our user base to the experimental group, where users will have access to the dark mode feature. The other 50% will serve as the control group, maintaining the existing light mode interface. We will utilize Firebase Remote Config to dynamically enable dark mode for the experimental group while keeping the control group on the regular light mode.
