@@ -24,7 +24,6 @@ ___
 **Experiment:**
 - Setup: For this A/B test, we will allocate 50% of our user base to the experimental group, where users will have access to the dark mode feature. The other 50% will serve as the control group, maintaining the existing light mode interface. We will utilize Firebase Remote Config to dynamically enable dark mode for the experimental group while keeping the control group on the regular light mode.
 
-- Tracking:
 - Success Metric: User Engagement
   - Tracking: Monitor metrics such as session duration, number of sessions per user, and interactions within the app (e.g., clicks, scrolls) using Firebase Analytics.
 - Secondary Metric: User Retention
