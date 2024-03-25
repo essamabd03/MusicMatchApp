@@ -49,4 +49,32 @@ ___
 - **Experiment:** For the experiment, instead of releasing the new features to all users, we will opt to send them out to just 50% of all users. The reason for a smaller release to a certain percentage of users is to get feedback before a wider release which will allow us to fine-tune the features. Also, we can monitor the performance to see how it responds and if there are any issues. For tracking, after a week of the new feature being out, it will ask the users to rate it 1 to 5, this being done through cloud functions in Google Firebase.
 - **Variations:** The variation we will use is after a feature is launched and users have had access to it for about a week, they will have a message displayed on their screen asking them to rate the feature 1 to 5 of how much they like it.
 ___
+
+**A/B Testing Proposal: Optimizing the Album Rating System**
+
+**Objective**: To determine the most effective and user-friendly album rating system that enhances engagement and provides valuable feedback for personalized recommendations within the Music Match app.
+
+**Hypothesis**: We believe that offering a more nuanced album rating system (Version B), with options beyond the traditional five-star scale (Version A), will lead to higher user engagement and more accurate music recommendations, ultimately improving user satisfaction.
+
+**Test Description**:
+
+- **Version A (Control)**: The traditional five-star rating system. Users can rate albums from 1 to 5 stars, with 5 being the highest. This system is widely understood and easy to use but may not capture the full spectrum of user sentiments towards an album.
+
+- **Version B (Variant)**: A nuanced rating system with four options: "Love," "Like," "Dislike," and "Hate." This approach aims to simplify the decision-making process for users and capture a clearer sentiment towards the music, potentially providing more actionable data for personalizing music recommendations.
+
+**Key Performance Indicators (KPIs)**:
+1. **Engagement Rate**: Measured by the percentage of users who rate albums after this feature is introduced compared to those who did so before.
+2. **Rating Volume**: The total number of ratings received per album in each version, indicating which system encourages more feedback.
+3. **User Retention**: Changes in daily and monthly active users, as a more engaging rating system may enhance overall app stickiness.
+4. **Feedback Quality**: Qualitative assessment of how well the ratings align with other indicators of preference, such as listening time and playlist additions.
+
+**Implementation Details**:
+- Randomly assign an equal number of new and existing users to either Version A or Version B upon app login or update.
+- Ensure both groups have similar demographics and usage patterns to control for external variables.
+- Run the test for a period of 4 weeks to collect a substantial amount of data across different user interactions.
+
+**Expected Outcome**:
+We anticipate that Version B will outperform Version A in terms of engagement rate and feedback quality, as it allows users to express their feelings about an album more directly and succinctly. This could lead to improved personalization of music recommendations and, consequently, higher overall satisfaction and retention rates.
+
+By comparing the performance of these two versions, we aim to refine our album rating system to better meet our users' needs and enhance their experience on the Music Match app.
 <!--- replace this text with your user story! (Be sure to delete this comment afterwards!) -->
