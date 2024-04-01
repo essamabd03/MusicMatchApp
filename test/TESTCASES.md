@@ -1,1 +1,2 @@
+- US2: User Login: https://docs.google.com/presentation/d/15NNE5WS6lQ5cx7S06MQ8ILYI05BVrHoKZqHtxhq0b08/edit?usp=sharing
 - US3: Backend Management: https://docs.google.com/presentation/d/1APjsJKknv-ic3n7tF72KZ0g4vLlXBh54TCwsuqnlFBA/edit?usp=sharing
