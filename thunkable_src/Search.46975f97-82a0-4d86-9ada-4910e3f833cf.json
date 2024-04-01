@@ -35,7 +35,7 @@
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(255, 255, 255, 1)",
+        "StatusBarColor": "rgba(0,0,0,0.53)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -43,13 +43,7 @@
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "tabBarLabel": "Search"
-        },
-        "tabNavigationOptions": {
-            "activeTabIcon": "\u00e2\u0080\u0094Pngtree\u00e2\u0080\u0094magnifying glass icon_4419957.png"
-        }
+        "isSimple": true
     },
     "children": [
         {
@@ -213,6 +207,141 @@
             "id": "a391b67e-df60-41e9-b14d-f9a021def836",
             "thunkableVersion": 447,
             "name": "Search_input"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 85,
+                "Width": 89,
+                "Visible": true,
+                "X": 269,
+                "Y": 568,
+                "RelativeX": 269,
+                "RelativeY": 568,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "14.8%",
+                    "top": "81.96401982114412%",
+                    "display": "flex"
+                },
+                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
+                "position": "absolute",
+                "edgeOffsets": 568
+            },
+            "children": [],
+            "id": "563be839-ed37-43ba-a0fd-6e39c202258a",
+            "thunkableVersion": 447,
+            "bindings": null,
+            "name": "Settings2"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 85,
+                "Width": 89,
+                "Visible": true,
+                "X": 143,
+                "Y": 568,
+                "RelativeX": 143,
+                "RelativeY": 568,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "14.8%",
+                    "top": "81.96401982114412%",
+                    "display": "flex"
+                },
+                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
+                "position": "absolute",
+                "edgeOffsets": 568
+            },
+            "children": [],
+            "id": "af0c1816-8871-4e1e-abd0-e8e78ffda84c",
+            "thunkableVersion": 447,
+            "bindings": null,
+            "name": "Search2"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 85,
+                "Width": 89,
+                "Visible": true,
+                "X": 18,
+                "Y": 568,
+                "RelativeX": 18,
+                "RelativeY": 568,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "14.8%",
+                    "top": "81.96401982114412%",
+                    "display": "flex"
+                },
+                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
+                "position": "absolute",
+                "edgeOffsets": 568
+            },
+            "children": [],
+            "id": "260ebac0-435c-4544-b042-2ac76fb2b35a",
+            "thunkableVersion": 447,
+            "bindings": null,
+            "name": "Homepage2"
         }
     ],
     "thunkableVersion": 447,

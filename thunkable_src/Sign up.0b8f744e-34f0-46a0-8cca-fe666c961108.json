@@ -277,8 +277,7 @@
                 "ParentId": "0b8f744e-34f0-46a0-8cca-fe666c961108",
                 "position": "absolute",
                 "edgeOffsets": 371,
-                "placeholder": "Re-enter password",
-                "secureTextEntry": true
+                "placeholder": "Re-enter password"
             },
             "children": [],
             "id": "a8ea8722-8785-4e15-95da-258f0728db71",
@@ -343,8 +342,7 @@
                 "ParentId": "0b8f744e-34f0-46a0-8cca-fe666c961108",
                 "position": "absolute",
                 "edgeOffsets": 313,
-                "placeholder": "Create Password",
-                "secureTextEntry": true
+                "placeholder": "Create Password"
             },
             "children": [],
             "id": "7cb3d70d-dab2-4799-9b60-1cfc8fabe8fa",
@@ -490,9 +488,9 @@
                 "Width": 189,
                 "Visible": true,
                 "X": 93,
-                "Y": 20,
+                "Y": 25,
                 "RelativeX": 93,
-                "RelativeY": 20,
+                "RelativeY": 25,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -518,7 +516,7 @@
                 },
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 20,
+                "edgeOffsets": 25,
                 "Picture": "musicMatchLogo.png"
             },
             "children": [],
