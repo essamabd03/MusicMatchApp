@@ -506,13 +506,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "cover",
-                "Height": 171,
-                "Width": 233,
+                "Height": 135,
+                "Width": 189,
                 "Visible": true,
-                "X": 73,
-                "Y": 15,
-                "RelativeX": 73,
-                "RelativeY": 15,
+                "X": 93,
+                "Y": 20,
+                "RelativeX": 93,
+                "RelativeY": 20,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -604,7 +604,8 @@
                 "ParentId": "0c9ec426-ce4a-4a44-823b-c40167c5085c",
                 "position": "absolute",
                 "edgeOffsets": 258,
-                "placeholder": "Enter Password"
+                "placeholder": "Enter Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "a09e856e-951c-4942-bf34-1dddde888c91",
