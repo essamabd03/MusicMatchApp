@@ -13,7 +13,7 @@
                             "children": [],
                             "id": "faf90f86-e8af-4a76-9619-93a750262eda",
                             "thunkableVersion": 450,
-                            "name": "Web_API1"
+                            "name": "spotifyAPI"
                         }
                     ]
                 }
@@ -346,8 +346,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -369,9 +369,9 @@
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
-                "googleOAuthiOSClientID": null,
-                "googleOAuthiOSURLScheme": null,
-                "googleOAuthWebClientID": null,
+                "googleOAuthiOSClientID": "220345540664-rcl36oerj7ommosba1rlq07mmpu24oii.apps.googleusercontent.com",
+                "googleOAuthiOSURLScheme": "com.googleusercontent.apps.220345540664-rcl36oerj7ommosba1rlq07mmpu24oii",
+                "googleOAuthWebClientID": "220345540664-9l249f9gn4kujaoqgb62gdpimj930dnt.apps.googleusercontent.com",
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
@@ -390,8 +390,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
-                "firebaseDatabaseURL": null,
+                "firebaseAPIKey": "AIzaSyBJNQdm0CNxi4Rp_55I5v3ATorlb9cwlPE",
+                "firebaseDatabaseURL": "https://scrumteam-e6045-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -413,9 +413,9 @@
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
-                "googleOAuthiOSClientID": null,
-                "googleOAuthiOSURLScheme": null,
-                "googleOAuthWebClientID": null,
+                "googleOAuthiOSClientID": "220345540664-rcl36oerj7ommosba1rlq07mmpu24oii.apps.googleusercontent.com",
+                "googleOAuthiOSURLScheme": "com.googleusercontent.apps.220345540664-rcl36oerj7ommosba1rlq07mmpu24oii",
+                "googleOAuthWebClientID": "220345540664-9l249f9gn4kujaoqgb62gdpimj930dnt.apps.googleusercontent.com",
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
@@ -432,7 +432,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "1",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -460,6 +460,36 @@
                     "scope": "APP",
                     "name": "userID",
                     "screenId": "0b8f744e-34f0-46a0-8cca-fe666c961108"
+                },
+                "476ec293-a1fc-46c0-b37d-e350d34ee053": {
+                    "scope": "STORED",
+                    "name": "gmail",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                },
+                "df38e05e-0955-428a-a21d-7bfa1cc1089c": {
+                    "scope": "STORED",
+                    "name": "UserID",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                },
+                "c83717c3-17f2-4704-be78-198e13b6651e": {
+                    "scope": "STORED",
+                    "name": "avatar",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                },
+                "e1750444-a936-4671-a026-ae14420398c3": {
+                    "scope": "STORED",
+                    "name": "Name",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                },
+                "26a07833-58f3-49b7-a7b4-f709ccb379d7": {
+                    "scope": "APP",
+                    "name": "forgotPass",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
+                },
+                "818184dc-ce66-4d08-9548-a44855483cac": {
+                    "scope": "APP",
+                    "name": "access_token",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
                 }
             },
             "defaultDesignerDevice": "PHONE",
