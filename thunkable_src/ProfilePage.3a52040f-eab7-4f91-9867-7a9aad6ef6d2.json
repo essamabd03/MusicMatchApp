@@ -31,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(228, 201, 239, 1)"
+            "backgroundColor": "rgba(190, 226, 234, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,7 +51,7 @@
         "tabNavigationOptions": {
             "activeTabIcon": "kisspng-computer-icons-google-account-user-profile-iconfin-png-icons-download-profile-5ab0301e32cb90.1777380215214960942081.png"
         },
-        "BackgroundColor": "rgba(228, 201, 239, 1)"
+        "BackgroundColor": "rgba(190, 226, 234, 1)"
     },
     "children": [
         {
