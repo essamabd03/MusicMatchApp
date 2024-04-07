@@ -31,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(190, 226, 234, 1)"
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,7 +51,8 @@
         "tabNavigationOptions": {
             "activeTabIcon": "kisspng-computer-icons-google-account-user-profile-iconfin-png-icons-download-profile-5ab0301e32cb90.1777380215214960942081.png"
         },
-        "BackgroundColor": "rgba(190, 226, 234, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
+        "Scrollable": true
     },
     "children": [
         {
@@ -336,13 +337,13 @@
             "properties": {
                 "Hint": "Type here",
                 "CustomFont": "",
-                "Height": 48,
-                "Width": 313,
+                "Height": 50,
+                "Width": 315,
                 "Visible": true,
-                "X": 1,
-                "Y": 344,
-                "RelativeX": 1,
-                "RelativeY": 344,
+                "X": 0.998263955116272,
+                "Y": 343.9930725097656,
+                "RelativeX": 0.998263955116272,
+                "RelativeY": 343.9930725097656,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -388,7 +389,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "3a52040f-eab7-4f91-9867-7a9aad6ef6d2",
                 "position": "absolute",
-                "edgeOffsets": 344,
+                "edgeOffsets": 343.9930725097656,
                 "placeholder": "Type here"
             },
             "children": [],
@@ -691,7 +692,7 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(0, 0, 0, 1)",
-                        "Height": 18,
+                        "Height": 20,
                         "Width": 41,
                         "Visible": true,
                         "X": 322,
@@ -835,7 +836,7 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(0, 0, 0, 1)",
-                        "Height": 18,
+                        "Height": 20,
                         "Width": 43,
                         "Visible": true,
                         "X": 50,
@@ -945,7 +946,7 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(0, 0, 0, 1)",
-                        "Height": 18,
+                        "Height": 20,
                         "Width": 41,
                         "Visible": true,
                         "X": 7,
@@ -999,19 +1000,19 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Edit",
+                "Text": "Edit ",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 1)",
                 "Height": 22,
-                "Width": 44,
+                "Width": 45,
                 "Visible": true,
-                "X": 323,
-                "Y": 244,
-                "RelativeX": 323,
-                "RelativeY": 244,
+                "X": 325,
+                "Y": 243,
+                "RelativeX": 325,
+                "RelativeY": 243,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -1042,7 +1043,7 @@
                 "Disabled": false,
                 "ParentId": "3a52040f-eab7-4f91-9867-7a9aad6ef6d2",
                 "position": "absolute",
-                "edgeOffsets": 244
+                "edgeOffsets": 243.55035400390625
             },
             "children": [],
             "id": "3fce241c-9db2-448f-b1ff-62bbb118ba6b",
@@ -1197,7 +1198,8 @@
                 "capInsets": {},
                 "ParentId": "3a52040f-eab7-4f91-9867-7a9aad6ef6d2",
                 "position": "absolute",
-                "edgeOffsets": 189
+                "edgeOffsets": 189,
+                "Picture": "\u00e2\u0080\u0094Pngtree\u00e2\u0080\u0094avatar icon profile icon member_5247852.png"
             },
             "children": [],
             "id": "fcbc1dee-cf10-41a1-a65b-7b0ede35a2f8",
@@ -1338,7 +1340,7 @@
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
-                    "fontStyle": "normal",
+                    "fontStyle": "italic",
                     "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
@@ -1376,7 +1378,8 @@
                 "ParentId": "3a52040f-eab7-4f91-9867-7a9aad6ef6d2",
                 "position": "absolute",
                 "edgeOffsets": 27,
-                "children": "Profile"
+                "children": "Profile",
+                "FontStyle": "italic"
             },
             "children": [],
             "id": "7989175c-e513-433b-b0c2-b36b4fa6627f",
