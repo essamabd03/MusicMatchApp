@@ -1,4 +1,5 @@
 {
+    "id": "0b8f744e-34f0-46a0-8cca-fe666c961108",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -68,7 +69,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -175,7 +175,7 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(0, 0, 0, 1)",
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
@@ -277,7 +277,8 @@
                 "ParentId": "0b8f744e-34f0-46a0-8cca-fe666c961108",
                 "position": "absolute",
                 "edgeOffsets": 371,
-                "placeholder": "Re-enter password"
+                "placeholder": "Re-enter password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "a8ea8722-8785-4e15-95da-258f0728db71",
@@ -342,7 +343,8 @@
                 "ParentId": "0b8f744e-34f0-46a0-8cca-fe666c961108",
                 "position": "absolute",
                 "edgeOffsets": 313,
-                "placeholder": "Create Password"
+                "placeholder": "Create Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "7cb3d70d-dab2-4799-9b60-1cfc8fabe8fa",
@@ -483,14 +485,14 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
+                "resizeMode": "cover",
                 "Height": 135,
                 "Width": 189,
                 "Visible": true,
                 "X": 93,
-                "Y": 25,
+                "Y": 20,
                 "RelativeX": 93,
-                "RelativeY": 25,
+                "RelativeY": 20,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -516,8 +518,8 @@
                 },
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 25,
-                "Picture": "musicmatchlogo.webp"
+                "edgeOffsets": 20,
+                "Picture": "musicMatchLogo.png"
             },
             "children": [],
             "id": "20ec287e-5c9a-4189-8cd4-7b477acad10c",
@@ -526,7 +528,6 @@
             "name": "logo1"
         }
     ],
-    "id": "0b8f744e-34f0-46a0-8cca-fe666c961108",
     "thunkableVersion": 447,
     "name": "Sign up"
 }
