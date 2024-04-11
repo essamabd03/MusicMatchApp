@@ -30,12 +30,13 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(241, 241, 241, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(0, 0, 0, 0)",
+        "StatusBarColor": "rgba(255, 255, 255, 1)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -50,7 +51,8 @@
         },
         "tabNavigationOptions": {
             "activeTabIcon": "kisspng-font-awesome-computer-icons-house-icon-design-clip-5b37b1e42ba1d8.4689985415303766761787.png"
-        }
+        },
+        "BackgroundColor": "rgba(241, 241, 241, 1)"
     },
     "children": [
         {
@@ -68,10 +70,10 @@
                 "Height": 37,
                 "Width": 66,
                 "Visible": true,
-                "X": 155,
-                "Y": 15,
-                "RelativeX": 155,
-                "RelativeY": 15,
+                "X": 164,
+                "Y": 190,
+                "RelativeX": 164,
+                "RelativeY": 190,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -113,7 +115,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 15,
+                "edgeOffsets": 190,
                 "children": "Home"
             },
             "children": [],
@@ -130,10 +132,10 @@
                 "Height": 94,
                 "Width": 107,
                 "Visible": true,
-                "X": 270,
-                "Y": 0,
-                "RelativeX": 270,
-                "RelativeY": 0,
+                "X": 135,
+                "Y": 44,
+                "RelativeX": 135,
+                "RelativeY": 44,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -160,7 +162,7 @@
                 "capInsets": {},
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 44
             },
             "children": [],
             "id": "d2824621-1d29-4a5c-ba8b-b14a27d73bbf",
@@ -177,10 +179,10 @@
                 "Height": 37,
                 "Width": 37,
                 "Visible": true,
-                "X": 9,
-                "Y": 398,
-                "RelativeX": 9,
-                "RelativeY": 398,
+                "X": 53,
+                "Y": 530,
+                "RelativeX": 53,
+                "RelativeY": 530,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -207,7 +209,7 @@
                 "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 398
+                "edgeOffsets": 530
             },
             "children": [],
             "id": "8fd3956b-7795-40a7-afee-e331841eada5",
@@ -224,10 +226,10 @@
                 "Height": 37,
                 "Width": 37,
                 "Visible": true,
-                "X": 9,
-                "Y": 289,
-                "RelativeX": 9,
-                "RelativeY": 289,
+                "X": 53,
+                "Y": 429,
+                "RelativeX": 53,
+                "RelativeY": 429,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -254,7 +256,7 @@
                 "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 289
+                "edgeOffsets": 429
             },
             "children": [],
             "id": "6366ab02-96d3-4117-87f8-640367c882f6",
@@ -271,10 +273,10 @@
                 "Height": 37,
                 "Width": 37,
                 "Visible": true,
-                "X": 9,
-                "Y": 182,
-                "RelativeX": 9,
-                "RelativeY": 182,
+                "X": 53,
+                "Y": 335,
+                "RelativeX": 53,
+                "RelativeY": 335,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -301,7 +303,7 @@
                 "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 182
+                "edgeOffsets": 335
             },
             "children": [],
             "id": "9d1b61a9-adb4-42a2-9f2f-10ca05dbfe54",
@@ -318,10 +320,10 @@
                 "Height": 39,
                 "Width": 39,
                 "Visible": true,
-                "X": 9,
-                "Y": 80,
-                "RelativeX": 9,
-                "RelativeY": 80,
+                "X": 51,
+                "Y": 252,
+                "RelativeX": 51,
+                "RelativeY": 252,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -348,7 +350,7 @@
                 "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 80
+                "edgeOffsets": 252
             },
             "children": [],
             "id": "f027d06a-35f1-4c02-a276-3c27fb176b33",
@@ -434,10 +436,10 @@
                 "Height": 35,
                 "Width": 110,
                 "Visible": true,
-                "X": 53,
-                "Y": 400,
-                "RelativeX": 53,
-                "RelativeY": 400,
+                "X": 104,
+                "Y": 532,
+                "RelativeX": 104,
+                "RelativeY": 532,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -477,7 +479,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 400,
+                "edgeOffsets": 532,
                 "children": "New Music"
             },
             "children": [],
@@ -500,10 +502,10 @@
                 "Height": 35,
                 "Width": 280,
                 "Visible": true,
-                "X": 59,
-                "Y": 291,
-                "RelativeX": 59,
-                "RelativeY": 291,
+                "X": 95,
+                "Y": 431,
+                "RelativeX": 95,
+                "RelativeY": 431,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -543,7 +545,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 291,
+                "edgeOffsets": 431,
                 "children": "What your friends are listening to"
             },
             "children": [],
@@ -566,10 +568,10 @@
                 "Height": 35,
                 "Width": 104,
                 "Visible": true,
-                "X": 59,
-                "Y": 183,
-                "RelativeX": 59,
-                "RelativeY": 183,
+                "X": 103,
+                "Y": 336,
+                "RelativeX": 103,
+                "RelativeY": 336,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -609,7 +611,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 183,
+                "edgeOffsets": 336,
                 "children": "Trending"
             },
             "children": [],
@@ -632,10 +634,10 @@
                 "Height": 33,
                 "Width": 148,
                 "Visible": true,
-                "X": 59,
-                "Y": 84,
-                "RelativeX": 59,
-                "RelativeY": 84,
+                "X": 114,
+                "Y": 258,
+                "RelativeX": 114,
+                "RelativeY": 258,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -676,7 +678,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 84,
+                "edgeOffsets": 258,
                 "children": "Song of the day",
                 "FontWeight": "normal",
                 "FontStyle": "normal"
@@ -686,6 +688,100 @@
             "thunkableVersion": 447,
             "bindings": null,
             "name": "Label3"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "081aed2e7ddc029f940021ddb22145fc.jpg",
+                "resizeMode": "stretch",
+                "Height": 469,
+                "Width": 313,
+                "Visible": true,
+                "X": 32,
+                "Y": 182,
+                "RelativeX": 32,
+                "RelativeY": 182,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "30%",
+                    "top": "44.706943403298354%",
+                    "display": "flex",
+                    "backgroundColor": "rgba(255, 255, 255, 1)"
+                },
+                "capInsets": {},
+                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
+                "position": "absolute",
+                "edgeOffsets": 182,
+                "BackgroundColor": "rgba(255, 255, 255, 1)"
+            },
+            "children": [],
+            "id": "c6d39493-7125-47e0-82b3-dc85da5b5906",
+            "thunkableVersion": 452,
+            "name": "BackgroundIMG2"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "vivid-blurred-colorful-wallpaper-background_58702-3765.avif",
+                "resizeMode": "stretch",
+                "Height": 249,
+                "Width": 377,
+                "Visible": true,
+                "X": -2,
+                "Y": 0,
+                "RelativeX": -2,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "37.2%",
+                    "top": "69.89434970014993%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
+                "position": "absolute",
+                "edgeOffsets": 0
+            },
+            "children": [],
+            "id": "66ed950d-e5d9-4e57-a225-b65075dc00e0",
+            "thunkableVersion": 452,
+            "name": "BackgroundIMG"
         }
     ],
     "thunkableVersion": 447,
