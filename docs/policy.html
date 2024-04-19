@@ -1,0 +1,168 @@
+<!-- FILEPATH: /Users/essamabdulraouf/Desktop/html/policy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include Google Fonts and Font Awesome CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    /* Header styles */
+    .header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+
+    /* Container styles */
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Heading styles */
+    h1 {
+      color: #333;
+    }
+
+    /* Dropdown styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropbtn {
+      background-color: transparent;
+      color: black;
+      padding: 16px;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      border-radius: 0px;
+      float: left;
+      border-right: 10px solid white;
+      border-color: transparent;
+      width: 100px;
+      height: 90px;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #ffffff;
+    }
+
+    /* Animation styles */
+    @keyframes gradientBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* Header gradient background */
+    .header {
+      background: linear-gradient(-45deg, #6a1b9a, #b39ddb, #7c4dff, #512da8);
+      height: 90px;
+      animation: gradientBackground 15s ease infinite;
+      color: white;
+      padding: 1px;
+      text-align: center;
+    }
+
+    /* Logo styles */
+    .logo {
+      display: block;
+      position: absolute;
+      top: -60px;
+      left: 600px;
+      width: 120px;
+    }
+
+    .circle-button {
+      display: transparent;
+      width: 80px; /* Set the width */
+      height: 80px; /* Set the height */
+      border-radius: 50%; /* Make it circular */
+      position: absolute;
+      top: 5px; /* Set the position from the top */
+      left: 620px; /* Set the position from the left */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header section -->
+  <div class="header">
+    <img src="musicMatchLogo.png" alt="Logo" class="logo">
+    <!-- Dropdown menu -->
+    <div class="dropdown">
+      <button class="dropbtn" onclick="toggleDropdown()">Menu &#9776;</button>
+      <a href="index.html" class="circle-button"></a>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="policy.html">Privacy Policy</a>
+        <!-- More menu items here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Content section -->
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>Your privacy is important to us. It is Music Match's policy to respect your privacy regarding any information we may collect from you across our website, [Website URL], and other sites we own and operate.</p>
+    <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
+    <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
+    <p>We do not share any personally identifying information publicly or with third-parties, except when required to by law.</p>
+    <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
+    <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
+    <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
+    <p>This policy is effective as of April 18th, 2024.</p>
+  </div>
+
+  <!-- JavaScript code -->
+  <script>
+    function toggleDropdown() {
+      var dropdownContent = document.querySelector('.dropdown-content');
+      if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+      } else {
+        dropdownContent.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
