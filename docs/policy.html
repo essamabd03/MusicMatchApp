@@ -104,23 +104,34 @@
       text-align: center;
     }
 
-    /* Logo styles */
     .logo {
       display: block;
       position: absolute;
-      top: -60px;
-      left: 600px;
-      width: 120px;
+      top: -70px; 
+      width: 130px; 
+      height: 230px; 
+      left: 50%;
+      transform: translateX(-50%); /* center the logo */
     }
 
     .circle-button {
       display: transparent;
-      width: 80px; /* Set the width */
-      height: 80px; /* Set the height */
-      border-radius: 50%; /* Make it circular */
       position: absolute;
-      top: 5px; /* Set the position from the top */
-      left: 620px; /* Set the position from the left */
+      top: -70px; 
+      width: 130px; 
+      height: 230px; 
+      left: 50%;
+      transform: translateX(-50%); /* center the logo */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .logo {
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+      }
     }
   </style>
 </head>
@@ -142,8 +153,8 @@
 
   <!-- Content section -->
   <div class="container">
-    <h1>Privacy Policy</h1>
-    <p>Your privacy is important to us. It is Music Match's policy to respect your privacy regarding any information we may collect from you across our website, [Website URL], and other sites we own and operate.</p>
+    <h1 style="color: black; text-decoration: underline;">Privacy Policy</h1>
+    <p>Your privacy is important to us. It is Music Match's policy to respect your privacy regarding any information we may collect from you across our app Music Match.</p>
     <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
     <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
     <p>We do not share any personally identifying information publicly or with third-parties, except when required to by law.</p>
