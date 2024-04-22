@@ -59,6 +59,7 @@
       color: black;
       text-decoration: none;
       display: block;
+      padding: 8px 0; /* Added padding */
     }
 
     .dropbtn {
@@ -93,6 +94,26 @@
         background-position: 0% 50%;
       }
     }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      h1 {
+        animation: pulse 1s infinite;
+      }
+
+      h1 img {
+        animation: pulse 1s infinite;
+      }
 
     /* Header gradient background */
     .header {
@@ -146,21 +167,46 @@
       <div class="dropdown-content">
         <a href="index.html">Home</a>
         <a href="policy.html">Privacy Policy</a>
+        <a href="about.html">About Us</a> <!-- Added "About Us" button -->
         <!-- More menu items here -->
       </div>
     </div>
   </div>
 
   <!-- Content section -->
-  <div class="container">
-    <h1 style="color: black; text-decoration: underline;">Privacy Policy</h1>
-    <p>Your privacy is important to us. It is Music Match's policy to respect your privacy regarding any information we may collect from you across our app Music Match.</p>
-    <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
-    <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
-    <p>We do not share any personally identifying information publicly or with third-parties, except when required to by law.</p>
-    <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
-    <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
-    <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
+  <div class="container" style="display: flex; justify-content: center; align-items: center;">
+    <h1 style="color: black; text-decoration: underline;">
+      <img src="lock.png" alt="Lock" style="display: inline-block; vertical-align: middle; animation: dance 2s infinite; width: 80px; height: 80px;">
+      Privacy Policy
+      <img src="lock.png" alt="Lock" style="display: inline-block; vertical-align: middle; animation: dance 2s infinite; width: 80px; height: 80px;">
+    </h1>
+  </div>
+  <div style="padding-left: 59px; font-size: 18px; text-align: center;">
+    <p>Your privacy is important to us. It is Music Match's policy</p> 
+      to respect your privacy regarding any information we may collect</p>
+      from you across our app Music Match.</p>
+    <p>We only ask for personal information when we truly need it to</p> 
+      provide a service to you. We collect it by fair and lawful means,</p>
+      with your knowledge and consent. We also let you know why we’re</p> 
+      collecting it and how it will be used.</p>
+    <p>We only retain collected information for as long as necessary to</p> 
+      provide you with your requested service. What data we store, we’ll</p>
+      protect within commercially acceptable means to prevent loss and</p> 
+      theft, as well as unauthorized access, disclosure, copying, use</p> 
+      or modification.</p>
+    <p>We do not share any personally identifying information publicly</p>
+       or with third-parties, except when required to by law.</p>
+    <p>Our website may link to external sites that are not operated by</p> 
+      us. Please be aware that we have no control over the content and</p> 
+      practices of these sites, and cannot accept responsibility or</p> 
+      liability for their respective privacy policies.</p>
+    <p>You are free to refuse our request for your personal information,</p> 
+      with the understanding that we may be unable to provide you with</p> 
+      some of your desired services.</p>
+    <p>Your continued use of our website will be regarded as acceptance</p> 
+      of our practices around privacy and personal information. If you</p> 
+      have any questions about how we handle user data and personal</p> 
+      information, feel free to contact us.</p>
     <p>This policy is effective as of April 18th, 2024.</p>
   </div>
 

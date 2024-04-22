@@ -1,0 +1,250 @@
+<!-- FILEPATH: /Users/essamabdulraouf/Desktop/html/Index.html -->
+<!-- This is an HTML document for the Music Match website. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include the Lato font from Google Fonts and Font Awesome CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Match</title>
+    <style>
+        /* CSS styles for the document */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+        }
+        .header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            border-radius: 5px; /* Added border-radius */
+        }
+        .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 8px 0; /* Added padding */
+        }
+        .dropbtn {
+            background-color: transparent;
+            color: black;
+            padding: 16px;
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            border-radius: 0px;
+            float: left;
+            border-right: 10px solid white;
+            border-color: transparent;
+            width: 100px;
+            height: 90px;
+        }
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #ffffff;
+        }
+        @keyframes gradientBackground {
+            /* Animation for the header background gradient */
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .header {
+            /* Styling for the header with a gradient background */
+            background: linear-gradient(-45deg, #6a1b9a, #b39ddb, #7c4dff, #512da8);
+            height: 90px;
+            animation: gradientBackground 15s ease infinite;
+            color: white;
+            padding: 1px;
+            text-align: center;
+            width: 100%;
+        }
+        .logo {
+            display: block;
+            position: absolute;
+            top: -70px; 
+            width: 130px; 
+            height: 230px; 
+            left: 50%;
+            transform: translateX(-50%); /* center the logo */
+        }
+        .circle-button {
+            display: transparent;
+            position: absolute;
+            top: -70px; 
+            width: 130px; 
+            height: 230px; 
+            left: 50%;
+             transform: translateX(-50%); /* center the logo */
+        }
+        @media screen and (max-width: 600px) {
+            .header {
+                height: 15vh; 
+            }
+            .logo {
+                width: 130px; /* keep the logo size constant */
+                height: 230px; /* keep the logo size constant */
+                top: -60px; 
+            }
+            .circle-button {
+                width: 15vw; 
+                height: 15vw; 
+            }
+        }
+        .iframe-container {
+            width: 400px;
+            height: 800px;
+            position: absolute;
+            top: 200px;
+            left: 450px;
+            border: none;
+        }
+        .title {
+            background: linear-gradient(90deg, #ff7f50, #ffbf00, #ffd700, #7fff00, #00bfff);
+            background-size: 200% auto;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0px;
+            animation: title-color-change 10s infinite, title-dance 1s infinite;
+        }
+        @keyframes title-dance {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
+        @keyframes title-color-change {
+            0% { background-position: 200% center; }
+            100% { background-position: -200% center; }
+        }
+        body {
+            background-color: white;
+        }
+        .note {
+            position: fixed;
+            width: 50px;
+            animation: falling 4s linear;
+            z-index: -1;
+        }
+        @keyframes falling {
+            0% { top: -50px; }
+            100% { top: 100vh; }
+        }
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%; /* for a 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .embed-container iframe {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="musicMatchLogo.png" alt="Logo" class="logo">
+        <div class="dropdown">
+            <!-- Button to toggle the dropdown menu -->
+            <button class="dropbtn" onclick="toggleDropdown()">Menu &#9776;</button>
+            <a href="index.html" class="circle-button"></a>
+            <div class="dropdown-content">
+                <!-- Dropdown menu items -->
+                <a href="index.html">Home</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="about.html">About Us</a> <!-- Added "About Us" button -->
+                <!-- More menu items here -->
+            </div>
+        </div>
+        <div class="embed-container">
+            <iframe src="https://thunkable.site/w/3XU34Rh3Qrl0O3fxrsjGJ" frameborder="0" allowfullscreen></iframe>
+            <div id="falling-notes"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title">Music Match</h1>
+    </div>
+    <script>
+        // JavaScript function to toggle the display of the dropdown menu
+        function toggleDropdown() {
+            var dropdownContent = document.querySelector('.dropdown-content');
+            if (dropdownContent.style.display === 'block') {
+                dropdownContent.style.display = 'none';
+            } else {
+                dropdownContent.style.display = 'block';
+            }
+        }
+
+        function createFallingNote() {
+            // Select a random note image
+            var noteImages = ['Note1.PNG', 'Note2.PNG', 'Note3.PNG'];
+            var randomImage = noteImages[Math.floor(Math.random() * noteImages.length)];
+
+            // Create a new img element
+            var img = document.createElement('img');
+            img.src = randomImage;
+            img.className = 'note';
+
+            // Set a random x-axis position
+            img.style.left = Math.random() * window.innerWidth + 'px';
+
+            // Append the img element to the falling-notes div
+            document.getElementById('falling-notes').appendChild(img);
+
+            // Remove the img element after 4 seconds
+            setTimeout(function() {
+                img.parentNode.removeChild(img);
+            }, 4000);
+        }
+
+        // Call createFallingNote every 150 milliseconds
+        setInterval(createFallingNote, 150);
+    </script>
+</body>
+</html>
