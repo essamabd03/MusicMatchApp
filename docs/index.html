@@ -92,45 +92,38 @@
             text-align: center;
             width: 100%;
         }
-        
-
         .logo {
             display: block;
             position: absolute;
-            top: -70px; /* adjust as needed */
-            width: 130px; /* adjust as needed */
-            height: 230px; /* adjust as needed */
+            top: -70px; 
+            width: 130px; 
+            height: 230px; 
             left: 50%;
             transform: translateX(-50%); /* center the logo */
         }
-
         .circle-button {
             display: transparent;
-            border-radius: 50%;
             position: absolute;
-            top: 5px;
-            width: 10vw; /* relative to the viewport width */
-            height: 10vw; /* keep the button circular */
-            left: 55%; /* adjust as needed */   
-             }
-
+            top: -70px; 
+            width: 130px; 
+            height: 230px; 
+            left: 50%;
+             transform: translateX(-50%); /* center the logo */
+        }
         @media screen and (max-width: 600px) {
             .header {
-                height: 15vh; /* adjust as needed */
+                height: 15vh; 
             }
-
             .logo {
-                width: 30vw; /* adjust as needed */
-                top: 0; /* adjust as needed */
+                width: 130px; /* keep the logo size constant */
+                height: 230px; /* keep the logo size constant */
+                top: -60px; 
             }
-            
             .circle-button {
-                width: 15vw; /* adjust as needed */
-                height: 15vw; /* adjust as needed */
+                width: 15vw; 
+                height: 15vw; 
             }
         }
-
-
         .iframe-container {
             width: 400px;
             height: 800px;
@@ -176,7 +169,6 @@
             0% { top: -50px; }
             100% { top: 100vh; }
         }
-
         .embed-container {
             position: relative;
             padding-bottom: 56.25%; /* for a 16:9 aspect ratio */
@@ -184,7 +176,6 @@
             overflow: hidden;
             max-width: 100%;
         }
-
         .embed-container iframe {
             position: absolute;
             top: 100px;
@@ -192,7 +183,6 @@
             width: 100%;
             height: 100%;
         }
-
     </style>
 </head>
 <body>
