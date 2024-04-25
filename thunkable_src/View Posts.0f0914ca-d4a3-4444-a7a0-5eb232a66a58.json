@@ -55,23 +55,77 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Button",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 32,
+                "Y": 488,
+                "RelativeX": 32,
+                "RelativeY": 488,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "40.93333333333333%",
+                    "top": "73.16341829085458%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "0f0914ca-d4a3-4444-a7a0-5eb232a66a58",
+                "position": "absolute",
+                "edgeOffsets": 488
+            },
+            "children": [],
+            "id": "8f822040-e336-4899-a286-01a400148e66",
+            "thunkableVersion": 454,
+            "name": "Home"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 128,
-                "Width": 313,
+                "Height": 352,
+                "Width": 315,
                 "Visible": true,
-                "X": 32,
-                "Y": 99,
-                "RelativeX": 32,
-                "RelativeY": 99,
+                "X": 33,
+                "Y": 100,
+                "RelativeX": 33,
+                "RelativeY": 100,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -112,8 +166,8 @@
                 },
                 "ParentId": "0f0914ca-d4a3-4444-a7a0-5eb232a66a58",
                 "position": "absolute",
-                "edgeOffsets": 99,
-                "children": "Label"
+                "edgeOffsets": 100,
+                "children": ""
             },
             "children": [],
             "id": "53a8efd4-467f-4eb6-a709-59de60c83114",
@@ -123,5 +177,5 @@
     ],
     "id": "0f0914ca-d4a3-4444-a7a0-5eb232a66a58",
     "thunkableVersion": 454,
-    "name": "Screen1"
+    "name": "View Posts"
 }
