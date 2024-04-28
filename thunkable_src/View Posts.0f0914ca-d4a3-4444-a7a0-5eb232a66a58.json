@@ -52,7 +52,9 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {
+            "activeTabIcon": "IMG_2200 (1).jpg"
+        }
     },
     "children": [
         {

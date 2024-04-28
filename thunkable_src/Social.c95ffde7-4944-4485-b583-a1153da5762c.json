@@ -50,9 +50,12 @@
         "ResponsiveWidth": 375,
         "isSimple": true,
         "navigationOptions": {
-            "headerStyle": {}
+            "headerStyle": {},
+            "tabBarVisible": true
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {
+            "activeTabIcon": "IMG_2199 (1).jpg"
+        }
     },
     "children": [
         {
@@ -109,12 +112,14 @@
                     "left": "14.959989420572917%",
                     "top": "51.23126303059408%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "backgroundColor": "rgba(0, 0, 0, 0)"
                 },
                 "ParentId": "c95ffde7-4944-4485-b583-a1153da5762c",
                 "position": "absolute",
                 "edgeOffsets": 387,
-                "children": ""
+                "children": "",
+                "BackgroundColor": "rgba(0, 0, 0, 0)"
             },
             "children": [],
             "id": "3a47cc6a-a388-4523-93cf-a591487165c6",
@@ -175,7 +180,8 @@
                     "left": "30.69332275390625%",
                     "top": "34.28973379521177%",
                     "lineHeight": 1,
-                    "display": "none"
+                    "display": "none",
+                    "backgroundColor": "rgba(0, 0, 0, 0)"
                 },
                 "ParentId": "c95ffde7-4944-4485-b583-a1153da5762c",
                 "position": "absolute",
@@ -183,7 +189,8 @@
                     "left": "30.69332275390625%",
                     "top": "34.28973379521177%"
                 },
-                "children": "Label"
+                "children": "Label",
+                "BackgroundColor": "rgba(0, 0, 0, 0)"
             },
             "children": [],
             "id": "8a25276b-8730-4c65-af7b-566d2dbe7a99",
@@ -303,7 +310,8 @@
                 "Disabled": false,
                 "ParentId": "c95ffde7-4944-4485-b583-a1153da5762c",
                 "position": "absolute",
-                "edgeOffsets": 139
+                "edgeOffsets": 139,
+                "BackgroundPicture": ""
             },
             "children": [],
             "id": "90fda5e3-1066-4e5c-840b-afa0c8cc880c",
