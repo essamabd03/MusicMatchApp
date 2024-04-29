@@ -111,13 +111,13 @@
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 0)",
                 "BackgroundPicture": "kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png",
-                "Height": 53,
+                "Height": 41,
                 "Width": 53,
                 "Visible": true,
                 "X": 0,
-                "Y": -1,
+                "Y": 0,
                 "RelativeX": 0,
-                "RelativeY": -1,
+                "RelativeY": 0,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -148,7 +148,7 @@
                 "Disabled": false,
                 "ParentId": "141a7214-4934-4989-81c2-6047170c2a9f",
                 "position": "absolute",
-                "edgeOffsets": -1.7763568394002505e-15
+                "edgeOffsets": 0
             },
             "children": [],
             "id": "c552a68c-b7ed-463c-b4f1-895057cc35b6",
@@ -330,8 +330,8 @@
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 1)",
-                "Height": 49,
-                "Width": 311,
+                "Height": 51,
+                "Width": 313,
                 "Visible": true,
                 "X": 32,
                 "Y": 99,
@@ -367,7 +367,7 @@
                 "Disabled": false,
                 "ParentId": "141a7214-4934-4989-81c2-6047170c2a9f",
                 "position": "absolute",
-                "edgeOffsets": 99
+                "edgeOffsets": 99.8888931274414
             },
             "children": [],
             "id": "23b24c82-f90a-45ce-9295-e80b466541b1",

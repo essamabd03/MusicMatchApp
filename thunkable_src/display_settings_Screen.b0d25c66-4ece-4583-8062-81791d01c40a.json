@@ -1,5 +1,4 @@
 {
-    "id": "b0d25c66-4ece-4583-8062-81791d01c40a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -68,8 +67,8 @@
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 0)",
                 "BackgroundPicture": "kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png",
-                "Height": 55,
-                "Width": 63,
+                "Height": 48,
+                "Width": 51,
                 "Visible": true,
                 "X": 0,
                 "Y": 0,
@@ -282,6 +281,7 @@
             "name": "Switch1"
         }
     ],
+    "id": "b0d25c66-4ece-4583-8062-81791d01c40a",
     "thunkableVersion": 454,
     "name": "display_settings_Screen"
 }
