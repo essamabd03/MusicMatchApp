@@ -679,7 +679,7 @@
                     "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
                 },
                 "df38e05e-0955-428a-a21d-7bfa1cc1089c": {
-                    "scope": "CLOUD",
+                    "scope": "STORED",
                     "name": "UserID",
                     "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
                 },
@@ -725,7 +725,7 @@
                 },
                 "04ff3b8b-b77e-43be-82ca-2c79a26d1e9e": {
                     "scope": "APP",
-                    "name": "user ID",
+                    "name": "name",
                     "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
                 },
                 "a9b8f13e-0656-4f41-ad9a-3392a26746a4": {
@@ -757,6 +757,16 @@
                     "scope": "APP",
                     "name": "darkMode",
                     "screenId": "b0d25c66-4ece-4583-8062-81791d01c40a"
+                },
+                "5596ed2f-7572-4461-914d-1d70893f958e": {
+                    "scope": "CLOUD",
+                    "name": "numberOfPosts",
+                    "screenId": "c95ffde7-4944-4485-b583-a1153da5762c"
+                },
+                "11cc8a78-7ea7-43bc-8e9b-277165cb72a6": {
+                    "scope": "STORED",
+                    "name": "googleAuth",
+                    "screenId": "0c9ec426-ce4a-4a44-823b-c40167c5085c"
                 }
             },
             "defaultDesignerDevice": "PHONE",
