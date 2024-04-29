@@ -1,4 +1,5 @@
 {
+    "id": "b0d25c66-4ece-4583-8062-81791d01c40a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -281,7 +282,6 @@
             "name": "Switch1"
         }
     ],
-    "id": "b0d25c66-4ece-4583-8062-81791d01c40a",
     "thunkableVersion": 454,
     "name": "display_settings_Screen"
 }
