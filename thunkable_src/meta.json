@@ -467,6 +467,17 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "b0d25c66-4ece-4583-8062-81791d01c40a": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -522,6 +533,9 @@
                     },
                     {
                         "id": "337529e8-e437-4579-bc08-49683c05f5dc"
+                    },
+                    {
+                        "id": "b0d25c66-4ece-4583-8062-81791d01c40a"
                     }
                 ]
             },
@@ -738,6 +752,11 @@
                     "scope": "CLOUD",
                     "name": "counter",
                     "screenId": "c95ffde7-4944-4485-b583-a1153da5762c"
+                },
+                "b87adfa6-6eac-48e0-b8a3-f749d1e72072": {
+                    "scope": "APP",
+                    "name": "darkMode",
+                    "screenId": "b0d25c66-4ece-4583-8062-81791d01c40a"
                 }
             },
             "defaultDesignerDevice": "PHONE",
