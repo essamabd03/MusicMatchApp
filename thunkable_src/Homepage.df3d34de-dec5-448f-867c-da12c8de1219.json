@@ -68,10 +68,10 @@
                 "Height": 23,
                 "Width": 88,
                 "Visible": true,
-                "X": 153,
-                "Y": 474,
-                "RelativeX": 153,
-                "RelativeY": 474,
+                "X": 62,
+                "Y": 483,
+                "RelativeX": 62,
+                "RelativeY": 483,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -102,7 +102,7 @@
                 "Disabled": false,
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 474
+                "edgeOffsets": 483
             },
             "children": [],
             "id": "690c05bd-1303-4ca8-94dd-595f4c35efa3",
@@ -133,7 +133,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -181,15 +180,15 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "musicMatchLogo.png",
+                "Picture": "music_match_logo.png",
                 "resizeMode": "cover",
-                "Height": 94,
-                "Width": 107,
+                "Height": 150,
+                "Width": 150,
                 "Visible": true,
-                "X": 135,
-                "Y": 44,
-                "RelativeX": 135,
-                "RelativeY": 44,
+                "X": 115,
+                "Y": 15,
+                "RelativeX": 115,
+                "RelativeY": 15,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -213,10 +212,9 @@
                     "top": "4.497751124437781%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 44
+                "edgeOffsets": 25
             },
             "children": [],
             "id": "d2824621-1d29-4a5c-ba8b-b14a27d73bbf",
@@ -260,7 +258,6 @@
                     "top": "55.816622938530735%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 530
@@ -269,7 +266,7 @@
             "id": "8fd3956b-7795-40a7-afee-e331841eada5",
             "thunkableVersion": 451,
             "bindings": null,
-            "name": "Image4"
+            "name": "feed_people_Image2"
         },
         {
             "type": "Image",
@@ -307,7 +304,6 @@
                     "top": "55.816622938530735%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 429
@@ -316,7 +312,7 @@
             "id": "6366ab02-96d3-4117-87f8-640367c882f6",
             "thunkableVersion": 451,
             "bindings": null,
-            "name": "Image3"
+            "name": "feed_people_Image"
         },
         {
             "type": "Image",
@@ -354,7 +350,6 @@
                     "top": "55.816622938530735%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 335
@@ -363,7 +358,7 @@
             "id": "9d1b61a9-adb4-42a2-9f2f-10ca05dbfe54",
             "thunkableVersion": 451,
             "bindings": null,
-            "name": "Image2"
+            "name": "trending_arrow_Image"
         },
         {
             "type": "Image",
@@ -401,7 +396,6 @@
                     "top": "55.816622938530735%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 252
@@ -409,7 +403,7 @@
             "children": [],
             "id": "f027d06a-35f1-4c02-a276-3c27fb176b33",
             "thunkableVersion": 451,
-            "name": "Image1"
+            "name": "music_Note_Image"
         },
         {
             "type": "Label",
@@ -547,19 +541,19 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "What your friends are listening to",
+                "Text": "Feed",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 35,
-                "Width": 280,
+                "Height": 28,
+                "Width": 154,
                 "Visible": true,
-                "X": 95,
-                "Y": 431,
-                "RelativeX": 95,
-                "RelativeY": 431,
+                "X": 103,
+                "Y": 435,
+                "RelativeX": 103,
+                "RelativeY": 435,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -599,8 +593,8 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 431,
-                "children": "What your friends are listening to"
+                "edgeOffsets": 435,
+                "children": "Feed"
             },
             "children": [],
             "id": "f2161098-7310-459d-89b6-ee6ddc8dc237",
@@ -747,62 +741,14 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "081aed2e7ddc029f940021ddb22145fc.jpg",
-                "resizeMode": "stretch",
-                "Height": 469,
-                "Width": 313,
-                "Visible": true,
-                "X": 32,
-                "Y": 182,
-                "RelativeX": 32,
-                "RelativeY": 182,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "30%",
-                    "top": "44.706943403298354%",
-                    "display": "flex",
-                    "backgroundColor": "rgba(255, 255, 255, 1)"
-                },
-                "capInsets": {},
-                "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
-                "position": "absolute",
-                "edgeOffsets": 182,
-                "BackgroundColor": "rgba(255, 255, 255, 1)"
-            },
-            "children": [],
-            "id": "c6d39493-7125-47e0-82b3-dc85da5b5906",
-            "thunkableVersion": 452,
-            "name": "BackgroundIMG2"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
                 "Picture": "vivid-blurred-colorful-wallpaper-background_58702-3765.avif",
                 "resizeMode": "stretch",
-                "Height": 249,
-                "Width": 377,
+                "Height": 179,
+                "Width": 379,
                 "Visible": true,
-                "X": -2,
+                "X": 0,
                 "Y": 0,
-                "RelativeX": -2,
+                "RelativeX": 0,
                 "RelativeY": 0,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -827,7 +773,6 @@
                     "top": "69.89434970014993%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
                 "edgeOffsets": 0

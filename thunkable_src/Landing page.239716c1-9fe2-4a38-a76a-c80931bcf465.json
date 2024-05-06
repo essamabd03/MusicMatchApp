@@ -118,13 +118,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "cover",
-                "Height": 135,
-                "Width": 189,
+                "Height": 150,
+                "Width": 150,
                 "Visible": true,
-                "X": 93,
-                "Y": 25,
-                "RelativeX": 93,
-                "RelativeY": 25,
+                "X": 115,
+                "Y": 15,
+                "RelativeX": 115,
+                "RelativeY": 15,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -150,8 +150,8 @@
                 },
                 "ParentId": "239716c1-9fe2-4a38-a76a-c80931bcf465",
                 "position": "absolute",
-                "edgeOffsets": 25,
-                "Picture": "musicMatchLogo.png"
+                "edgeOffsets": 13.88888931274414,
+                "Picture": "music_match_logo.png"
             },
             "children": [],
             "id": "24014284-e722-47c9-a0c2-880808f3989a",
