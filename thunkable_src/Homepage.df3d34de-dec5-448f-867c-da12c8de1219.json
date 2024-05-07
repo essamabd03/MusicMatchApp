@@ -68,10 +68,10 @@
                 "Height": 23,
                 "Width": 88,
                 "Visible": true,
-                "X": 62,
-                "Y": 483,
-                "RelativeX": 62,
-                "RelativeY": 483,
+                "X": 51,
+                "Y": 465,
+                "RelativeX": 51,
+                "RelativeY": 465,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -102,7 +102,7 @@
                 "Disabled": false,
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 483
+                "edgeOffsets": 465
             },
             "children": [],
             "id": "690c05bd-1303-4ca8-94dd-595f4c35efa3",
@@ -232,9 +232,9 @@
                 "Width": 37,
                 "Visible": true,
                 "X": 53,
-                "Y": 530,
+                "Y": 518,
                 "RelativeX": 53,
-                "RelativeY": 530,
+                "RelativeY": 518,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -260,7 +260,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 530
+                "edgeOffsets": 518
             },
             "children": [],
             "id": "8fd3956b-7795-40a7-afee-e331841eada5",
@@ -278,9 +278,9 @@
                 "Width": 37,
                 "Visible": true,
                 "X": 53,
-                "Y": 429,
+                "Y": 414,
                 "RelativeX": 53,
-                "RelativeY": 429,
+                "RelativeY": 414,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -306,7 +306,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 429
+                "edgeOffsets": 414
             },
             "children": [],
             "id": "6366ab02-96d3-4117-87f8-640367c882f6",
@@ -484,10 +484,10 @@
                 "Height": 35,
                 "Width": 110,
                 "Visible": true,
-                "X": 104,
-                "Y": 532,
-                "RelativeX": 104,
-                "RelativeY": 532,
+                "X": 103,
+                "Y": 518,
+                "RelativeX": 103,
+                "RelativeY": 518,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -527,7 +527,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 532,
+                "edgeOffsets": 518,
                 "children": "New Music"
             },
             "children": [],
@@ -551,9 +551,9 @@
                 "Width": 154,
                 "Visible": true,
                 "X": 103,
-                "Y": 435,
+                "Y": 418,
                 "RelativeX": 103,
-                "RelativeY": 435,
+                "RelativeY": 418,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -593,7 +593,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 435,
+                "edgeOffsets": 418,
                 "children": "Feed"
             },
             "children": [],

@@ -230,9 +230,9 @@
                 "Height": 913,
                 "Width": 376,
                 "Visible": true,
-                "X": 0.800000011920929,
+                "X": 0,
                 "Y": 207,
-                "RelativeX": 0.800000011920929,
+                "RelativeX": 0,
                 "RelativeY": 207,
                 "ResizeMode": "STRETCH",
                 "Justification": "center",
@@ -263,7 +263,7 @@
                 },
                 "ParentId": "46975f97-82a0-4d86-9ada-4910e3f833cf",
                 "position": "absolute",
-                "edgeOffsets": 207.8000030517578
+                "edgeOffsets": 207
             },
             "children": [],
             "id": "4d7e898e-e943-433d-beea-942f6a1b3c22",
