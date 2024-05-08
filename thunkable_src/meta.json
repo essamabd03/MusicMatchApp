@@ -595,7 +595,8 @@
                         "location": true,
                         "iap": false
                     }
-                }
+                },
+                "6636c5b4b85c56cbf11c32ff": {}
             },
             "categories": [
                 "Business"
@@ -764,7 +765,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -911,6 +912,36 @@
                 "cb8ccf80-30b3-4b19-8892-252e56163737": {
                     "scope": "APP",
                     "name": "searchChoice",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "cea461c8-d2b1-43a8-9c1f-aedf5f6d2f40": {
+                    "scope": "APP",
+                    "name": "name",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "41761a98-f880-4fd8-97c3-741ac02f8d1e": {
+                    "scope": "APP",
+                    "name": "id",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "2a263063-7ebb-4763-a97c-7b733c445264": {
+                    "scope": "APP",
+                    "name": "popularity",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "ddc146bf-f76b-4f50-9f69-c9464e338e67": {
+                    "scope": "APP",
+                    "name": "followers",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "987d74aa-611b-4c7f-9d10-4a62bef78d4f": {
+                    "scope": "APP",
+                    "name": "genres",
+                    "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
+                },
+                "768d838f-16db-4b5f-8bc9-84e74c13125f": {
+                    "scope": "APP",
+                    "name": "images",
                     "screenId": "46975f97-82a0-4d86-9ada-4910e3f833cf"
                 }
             },
