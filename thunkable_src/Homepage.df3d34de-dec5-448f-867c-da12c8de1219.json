@@ -69,9 +69,9 @@
                 "Width": 204,
                 "Visible": true,
                 "X": 88,
-                "Y": 354,
+                "Y": 338,
                 "RelativeX": 88,
-                "RelativeY": 354,
+                "RelativeY": 338,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -102,7 +102,7 @@
                 "Disabled": false,
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 354
+                "edgeOffsets": 338
             },
             "children": [],
             "id": "32771795-a0f3-4d09-b24b-c89240f2afbe",
@@ -174,13 +174,13 @@
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 1)",
-                "Height": 22,
-                "Width": 90,
+                "Height": 23,
+                "Width": 107,
                 "Visible": true,
-                "X": 146,
-                "Y": 515.0000114440918,
-                "RelativeX": 146,
-                "RelativeY": 515.0000114440918,
+                "X": 134,
+                "Y": 508,
+                "RelativeX": 134,
+                "RelativeY": 508,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -211,7 +211,7 @@
                 "Disabled": false,
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 515.0000114440918
+                "edgeOffsets": 508
             },
             "children": [],
             "id": "690c05bd-1303-4ca8-94dd-595f4c35efa3",
@@ -435,9 +435,9 @@
                 "Width": 39,
                 "Visible": true,
                 "X": 167,
-                "Y": 295,
+                "Y": 281,
                 "RelativeX": 167,
-                "RelativeY": 295,
+                "RelativeY": 281,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -463,7 +463,7 @@
                 },
                 "ParentId": "df3d34de-dec5-448f-867c-da12c8de1219",
                 "position": "absolute",
-                "edgeOffsets": 295
+                "edgeOffsets": 281
             },
             "children": [],
             "id": "f027d06a-35f1-4c02-a276-3c27fb176b33",
