@@ -1,4 +1,5 @@
 {
+    "id": "493c3b28-5094-4872-8583-7b70dd6a09ec",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -452,7 +453,6 @@
             "name": "Image7"
         }
     ],
-    "id": "493c3b28-5094-4872-8583-7b70dd6a09ec",
     "thunkableVersion": 455,
     "bindings": null,
     "name": "Album Search Info"
