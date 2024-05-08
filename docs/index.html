@@ -23,7 +23,7 @@
             color: #fff;
         }
         .container {
-            max-width: 1000px;
+            max-width: 800px;
             margin: auto;
             padding: 20px;
         }
@@ -33,7 +33,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 300%;
+            width: 100%;
             margin: 0 auto;
             padding: 20px;
         }
@@ -44,7 +44,7 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 10px;
-            width: 200%;
+            width: 100%;
         }
 
         #app-showcase .image-container img {
@@ -197,10 +197,11 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 100%;
+            width: 300%;
             margin: 0 auto;
             padding: 20px;
         }
+
         #app-showcase .container img {
             width: 20%;
             height: auto;
@@ -213,10 +214,10 @@
         }
         .embed-container {
             width: 100%;
-            padding-top: 75%;
+            padding-top: 100%;
             position: relative;
             overflow: hidden;
-            margin-top: 90px;
+            margin-top: 510px;
         }
         .embed-container iframe {
             position: absolute;
@@ -240,6 +241,72 @@
             text-decoration: underline;
             font-weight: bold;
         }
+
+        .app-icon {
+            height: 100px; /* Adjust as needed */
+            width: 100px; /* Adjust as needed */
+            margin-right: 10px; /* Adjust as needed */
+            vertical-align: middle; /* Aligns the image with the text in the button */
+            margin-top: -20px;
+            margin-left: auto; /* Center horizontally */
+            margin-right: auto; /* Center horizontally */
+            display: block; /* Center vertically */
+        }
+
+        .download-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px; /* Adjust as needed */
+            border-radius: 5px; /* Adjust as needed */
+            text-decoration: none;
+            margin-left: auto; /* Center horizontally */
+            margin-right: auto; /* Center horizontally */
+            width: 150px; /* Adjust as needed */
+            margin-top: 10px; /* Adjust as needed */
+        }
+
+        .descriptionTitle {
+            color: #000; /* Adjust as needed */
+            font-size: 24px; /* Adjust as needed */
+            margin-bottom: 10px; /* Adjust as needed */
+            text-align: center; /* Center the text */
+            background-color: white; /* Add white background */
+        }
+
+        .app-description {
+            color: #000000; /* Change color to white */
+            background-color: white;
+            font-size: 16px;
+            margin-top: -40px;
+            width: 200%;
+            padding: 20px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            text-align: justify;
+        }
+
+        .documentation-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px; /* Adjust as needed */
+            border-radius: 5px; /* Adjust as needed */
+            text-decoration: none;
+            margin-left: auto; /* Center horizontally */
+            margin-right: auto; /* Center horizontally */
+            width: 200px; /* Adjust as needed */
+            margin-top: 10px; /* Adjust as needed */
+        }
+
         @media screen and (max-width: 800px) {
             #app-showcase {
                 width: 90%;
@@ -256,6 +323,10 @@
                 margin: 0 auto;
                 justify-content: center;
             }
+
+            
+           
+
         }
     </style>
 </head>
@@ -278,6 +349,14 @@
     </div>
     <div class="container">
         <h1 class="title">Music Match</h1>
+        <img src="appIcon.png" class="app-icon" alt="App Icon">
+        <a href="https://play.google.com/store/apps/details?id=edu.uri.eabdulraouf.musicmatchapp" class="download-button">Download App</a>
+        <a href="https://github.com/essamabd03/MusicMatchApp/wiki" class="documentation-button">View Documentation</a>
+        <h2 class="descriptionTitle">What is Music Match?</h2>
+        <p class="app-description">
+            <p class="app-description" style="text-align: center;">
+                <strong>Music Match</strong> is a fun and easy-to-use app that helps you discover new music and connect with people who share your taste. With album ratings, personalized recommendations, and a live music discovery feature, it's a great way to find and enjoy new songs and albums. Music Match uses the latest music platforms and social media features to give you an awesome music discovery experience. Whether you want to explore new sounds or connect with fellow music lovers, Music Match makes it simple and enjoyable.
+            </p>
     </div>
     <script>
         function toggleDropdown() {
@@ -311,11 +390,10 @@
     <section id="app-showcase">
         <div class="container">
             <h2>App Showcase</h2>
-            <video controls>
-                <source src="showcase.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </div>
+        <video controls>
+            <source src="showcase.mp4" type="video/mp4">
+        </video>
         <div class="image-container">
             <figure>
                 <figcaption style="text-align: center; font-weight: bold; text-decoration: underline;">Home Screen</figcaption>
