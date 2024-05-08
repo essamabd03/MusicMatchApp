@@ -23,10 +23,36 @@
             color: #fff;
         }
         .container {
-            max-width: 700px;
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
+
+        #app-showcase .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 300%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #app-showcase .image-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 200%;
+        }
+
+        #app-showcase .image-container img {
+            flex: 1 1 15%;
+            max-width: 200px;
+            height: auto;
+        }
+
         h1 {
             color: #333;
         }
@@ -43,13 +69,13 @@
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             padding: 12px 16px;
             z-index: 1;
-            border-radius: 5px; /* Added border-radius */
+            border-radius: 5px;
         }
         .dropdown-content a {
             color: black;
             text-decoration: none;
             display: block;
-            padding: 8px 0; /* Added padding */
+            padding: 8px 0;
         }
         .dropbtn {
             background-color: transparent;
@@ -70,7 +96,6 @@
             background-color: #ffffff;
         }
         @keyframes gradientBackground {
-            /* Animation for the header background gradient */
             0% {
                 background-position: 0% 50%;
             }
@@ -82,7 +107,6 @@
             }
         }
         .header {
-            /* Styling for the header with a gradient background */
             background: linear-gradient(-45deg, #6a1b9a, #b39ddb, #7c4dff, #512da8);
             height: 90px;
             animation: gradientBackground 15s ease infinite;
@@ -94,33 +118,33 @@
         .logo {
             display: block;
             position: absolute;
-            top: -70px; 
-            width: 130px; 
-            height: 230px; 
+            top: -70px;
+            width: 130px;
+            height: 230px;
             left: 50%;
-            transform: translateX(-50%); /* center the logo */
+            transform: translateX(-50%);
         }
         .circle-button {
             display: transparent;
             position: absolute;
-            top: -70px; 
-            width: 130px; 
-            height: 230px; 
+            top: -70px;
+            width: 130px;
+            height: 230px;
             left: 50%;
-             transform: translateX(-50%); /* center the logo */
+            transform: translateX(-50%);
         }
         @media screen and (max-width: 600px) {
             .header {
-                height: 15vh; 
+                height: 15vh;
             }
             .logo {
-                width: 130px; /* keep the logo size constant */
-                height: 230px; /* keep the logo size constant */
-                top: -60px; 
+                width: 130px;
+                height: 230px;
+                top: -60px;
             }
             .circle-button {
-                width: 15vw; 
-                height: 15vw; 
+                width: 15vw;
+                height: 15vw;
             }
         }
         .iframe-container {
@@ -168,19 +192,70 @@
             0% { top: -50px; }
             100% { top: 100vh; }
         }
+        #app-showcase .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #app-showcase .container img {
+            width: 20%;
+            height: auto;
+            margin: 10px;
+        }
+        #app-showcase video {
+            width: 80%;
+            max-width: 300px;
+            height: auto;
+        }
         .embed-container {
+            width: 100%;
+            padding-top: 75%;
             position: relative;
-            padding-bottom: 56.25%; /* for a 16:9 aspect ratio */
-            height: 0;
             overflow: hidden;
-            max-width: 100%;
+            margin-top: 90px;
         }
         .embed-container iframe {
             position: absolute;
-            top: 100px;
+            top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            border: none;
+        }
+        #app-showcase {
+            width: 80%;
+            margin: 700px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        #app-showcase h2 {
+            text-align: center;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        @media screen and (max-width: 800px) {
+            #app-showcase {
+                width: 90%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            #app-showcase {
+                width: 100%;
+            }
+            #app-showcase video {
+                width: 100%;
+                max-width: 900px;
+                display: block;
+                margin: 0 auto;
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -188,15 +263,12 @@
     <div class="header">
         <img src="musicMatchLogo.png" alt="Logo" class="logo">
         <div class="dropdown">
-            <!-- Button to toggle the dropdown menu -->
             <button class="dropbtn" onclick="toggleDropdown()">Menu &#9776;</button>
             <a href="index.html" class="circle-button"></a>
             <div class="dropdown-content">
-                <!-- Dropdown menu items -->
                 <a href="index.html">Home</a>
                 <a href="policy.html">Privacy Policy</a>
-                <a href="about.html">About Us</a> <!-- Added "About Us" button -->
-                <!-- More menu items here -->
+                <a href="about.html">About Us</a>
             </div>
         </div>
         <div class="embed-container">
@@ -208,7 +280,6 @@
         <h1 class="title">Music Match</h1>
     </div>
     <script>
-        // JavaScript function to toggle the display of the dropdown menu
         function toggleDropdown() {
             var dropdownContent = document.querySelector('.dropdown-content');
             if (dropdownContent.style.display === 'block') {
@@ -219,29 +290,38 @@
         }
 
         function createFallingNote() {
-            // Select a random note image
             var noteImages = ['Note1.PNG', 'Note2.PNG', 'Note3.PNG'];
             var randomImage = noteImages[Math.floor(Math.random() * noteImages.length)];
 
-            // Create a new img element
             var img = document.createElement('img');
             img.src = randomImage;
             img.className = 'note';
 
-            // Set a random x-axis position
             img.style.left = Math.random() * window.innerWidth + 'px';
 
-            // Append the img element to the falling-notes div
             document.getElementById('falling-notes').appendChild(img);
 
-            // Remove the img element after 4 seconds
             setTimeout(function() {
                 img.parentNode.removeChild(img);
             }, 4000);
         }
 
-        // Call createFallingNote every 150 milliseconds
         setInterval(createFallingNote, 150);
     </script>
+    <section id="app-showcase">
+        <div class="container">
+            <h2>App Showcase</h2>
+            <video controls>
+                <source src="showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="image-container">
+            <img src="homeScreen.png" alt="App image 1">
+            <img src="searchScreen.png" alt="App image 2">
+            <img src="postScreen (1).png" alt="App image 3">
+            <img src="profileScreen (5).png" alt="App image 4">
+        </div>
+    </section>
 </body>
 </html>
